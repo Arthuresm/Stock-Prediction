@@ -1,7 +1,7 @@
 
 import math
 
-class Fold():
+class WindowData():
     def __init__(self, dataset, proportion, target):
         self.data = dataset
         self.target = target
