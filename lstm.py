@@ -11,7 +11,7 @@ import numpy as np
 
 
 class LSTMModel():
-    MAX_EPOCHS = 200
+    MAX_EPOCHS = 10
 
     def __init__(self):
         self.regressor = Sequential([
